@@ -40,3 +40,9 @@ void printArray(string[] arrToPrint)
         Console.Write(" " + arrToPrint[i]);
     }
 }
+nt theLength = 3;
+string[] initArray = { "qwerty", "dog", "baloon", "cheater", "cat", "om", "Italy", "pinguin", "Jeck Daniels", "shit","big"};
+printArray(initArray);
+Console.WriteLine();
+printArray(createArrayByLength(initArray, GetCountByLength(initArray, theLength),theLength));
+
