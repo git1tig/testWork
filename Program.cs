@@ -33,3 +33,10 @@ string[] createArrayByLength(string[] startArray, int myLength, int lengthLimit)
     }
     return newArray;
 }
+void printArray(string[] arrToPrint)
+{
+    for (int i = 0; i < arrToPrint.Length; i++)
+    {
+        Console.Write(" " + arrToPrint[i]);
+    }
+}
