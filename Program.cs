@@ -40,9 +40,11 @@ void printArray(string[] arrToPrint)
         Console.Write(" " + arrToPrint[i]);
     }
 }
-nt theLength = 3;
+int theLength = 3;
 string[] initArray = { "qwerty", "dog", "baloon", "cheater", "cat", "om", "Italy", "pinguin", "Jeck Daniels", "shit","big"};
+Console.WriteLine("Исходный массив:");
 printArray(initArray);
 Console.WriteLine();
+Console.WriteLine("Результирующий массив:");
 printArray(createArrayByLength(initArray, GetCountByLength(initArray, theLength),theLength));
 
